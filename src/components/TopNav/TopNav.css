@@ -1,0 +1,90 @@
+.top_nav {
+  border-bottom: 0.01rem solid gray;
+}
+/* --- top nav background set start --- */
+.top_nav .set_background {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  background-color: #c20505;
+  position: relative;
+  z-index: -99999;
+}
+.top_nav .set_background .left_side {
+  width: 90%;
+  height: 4rem;
+  background-color: #000;
+  clip-path: polygon(0 0, 95% 0, 100% 100%, 0 100%);
+}
+.top_nav .set_background .right_side {
+  width: 20%;
+  height: 4rem;
+  background-color: #c20505;
+}
+/* --- top nav background set end --- */
+.top_nav .top_nav_wrapper {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -4rem;
+}
+
+/* --- left side start --- */
+.top_nav .top_nav_wrapper .left_side {
+  width: 90%;
+  font-size: 1.3rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top_nav .left_side .location {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.top_nav .left_side .location p {
+  margin: 0 0.8rem;
+}
+
+.top_nav .left_side .telephone_email {
+  display: flex;
+  align-items: center;
+}
+.top_nav .left_side .telephone_email .telephone,
+.top_nav .left_side .telephone_email .email {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.top_nav .left_side .telephone_email .telephone {
+  margin-right: 3rem;
+}
+
+.top_nav .left_side .telephone_email .email {
+  margin-right: 10rem;
+}
+
+.top_nav .left_side .telephone_email .telephone img,
+.top_nav .left_side .telephone_email .email img {
+  margin-right: 1rem;
+}
+/* --- left side end --- */
+
+/* --- right side start --- */
+.top_nav .top_nav_wrapper .right_side {
+  width: 10%;
+}
+.top_nav .right_side ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.top_nav .right_side ul li:nth-child(2) {
+  margin: 0 3rem;
+}
+/* --- right side end --- */

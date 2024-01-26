@@ -1,5 +1,61 @@
+/* =========== Google Fonts Link ===========*/
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+/* ============================ */
+/* Basic setup */
+/* ============================ */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: fastscroll;
+}
+/* width */
+::-webkit-scrollbar {
+  /* width: 10px; */
+  display: none;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+/* ============================ */
+/* Reusable component setup */
+/* ============================ */
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.btn:link,
+.btn:visited,
+.btn {
+  background: #c20505;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  border: none;
+}
+
+/* --- slider --- */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+.slick-dots li button {
+  display: none !important;
 }
