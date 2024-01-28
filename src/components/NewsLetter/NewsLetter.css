@@ -1,0 +1,21 @@
+.news_letter {
+  background-color: #c20505;
+  color: #fff;
+}
+.news_letter_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.news_letter_container .title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.news_letter_container .details {
+  font-size: 1.4rem;
+}
+.news_letter_container .sign_up_btn {
+  border: 2px solid #fff;
+}

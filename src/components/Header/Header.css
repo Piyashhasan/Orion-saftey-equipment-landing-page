@@ -48,5 +48,5 @@
 
 .header_container .slider .centered_text .learn_more_btn {
   margin-top: 3rem;
-  font-size: 1.8rem;
+  cursor: pointer !important;
 }

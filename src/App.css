@@ -36,26 +36,52 @@ ul li a {
 /* Reusable component setup */
 /* ============================ */
 .container {
-  max-width: 114rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 .btn:link,
 .btn:visited,
 .btn {
   background: #c20505;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #fff;
   display: inline-block;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 4rem;
   border: none;
+  cursor: pointer;
+  width: 19rem;
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
+.btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 /* --- slider --- */
 .slick-prev,
 .slick-next {
   display: none !important;
 }
+
 .slick-dots li button {
   display: none !important;
 }

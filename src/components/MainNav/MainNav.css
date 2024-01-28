@@ -10,7 +10,6 @@
   position: fixed;
   top: 0;
   background-color: #000;
-  transition: all 0.9s ease;
 }
 
 .navbar .nav_container {

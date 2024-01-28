@@ -1,0 +1,42 @@
+.certificate_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5rem;
+  margin: 10rem 0;
+}
+
+.certificate_container .card {
+  max-width: 50rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.certificate_container .card .inner {
+  overflow: hidden;
+}
+.certificate_container .card:hover .inner img {
+  transform: scale(1.5);
+}
+.certificate_container .card img {
+  width: 100%;
+  transition: all 1s ease;
+}
+
+.certificate_container .card .title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #3f4040;
+  margin: 2rem 0;
+}
+
+.certificate_container .card .description {
+  font-size: 1.4rem;
+  color: #707070;
+  line-height: 2.5rem;
+}
+
+.certificate_container .card button {
+  margin: 3rem;
+}
+
