@@ -1,0 +1,41 @@
+/* --- responsive break poin start --- */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .protection_container > div:nth-child(1) {
+    order: 2;
+  }
+  .protection_container > div:nth-child(2) {
+    order: 1;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .protection_container > div:nth-child(1) {
+    order: 2;
+  }
+  .protection_container > div:nth-child(2) {
+    order: 1;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  .protection_container {
+    gap: 5rem;
+    margin: 15rem 5rem;
+  }
+  .protection_container .left_side {
+    width: 50%;
+  }
+  .protection_container .left_side img {
+    width: 100%;
+  }
+  .protection_container .right_side {
+    width: 50%;
+  }
+  .protection_container .right_side .button_group {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+/* --- responsive break poin end --- */

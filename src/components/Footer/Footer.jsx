@@ -8,56 +8,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container footer_container">
-        {/* <div className="left_side">
-          <div>
-            <div className="office">
-              <p>Office</p>
-              <p>
-                1161 40th Avenue NE <br /> Calgary, Alberta T2E 6M9
-              </p>
-            </div>
-            <div className="phone">
-              <p>Phone</p>
-              <p>(403) 769 - 1799</p>
-            </div>
-            <div className="email">
-              <p>Email</p>
-              <p>info@orionsafety.ca</p>
-            </div>
-          </div>
-          <div className="weeks_weekends_social_area">
-            <div className="weeks_days">
-              <p>Weekdays</p>
-              <p> 8:00am - 4:30pm</p>
-            </div>
-            <div className="weekends">
-              <p>Weekends</p>
-              <p> Call for hours</p>
-            </div>
-            <div className="social_media">
-              <p>Social Media</p>
-              <div>
-                <ul>
-                  <li>
-                    <a href="">
-                      <img src={facebookIcon} alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src={instagramIcon} alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src={linkedIcon} alt="" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="left_side">
           <div>
             <div className="office">

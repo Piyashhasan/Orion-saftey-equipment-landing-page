@@ -19,3 +19,44 @@
 .news_letter_container .sign_up_btn {
   border: 2px solid #fff;
 }
+
+/* --- responsive break poin start --- */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .news_letter_container {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .news_letter_container {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .news_letter_container {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  .news_letter_container {
+    gap: 5rem;
+    text-align: center;
+    margin: 0 2rem;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .news_letter_container {
+    gap: 5rem;
+    text-align: center;
+    margin: 0 2rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+ 
+}
+/* --- responsive break poin end --- */

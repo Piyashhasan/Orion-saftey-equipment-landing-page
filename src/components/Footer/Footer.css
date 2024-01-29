@@ -55,3 +55,85 @@
 .footer_container .right_side img {
   max-width: 38rem;
 }
+
+/* --- responsive break poin start --- */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .footer {
+    background-image: none;
+    background-color: #000;
+    background-size: cover;
+  }
+  .footer .footer_container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .footer .footer_container .left_side {
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .footer .footer_container .left_side .office ul,
+  .footer .footer_container .left_side .phone_email {
+    gap: 8rem;
+  }
+
+  .footer .footer_container .left_side .working_days {
+    gap: 4rem;
+    margin-top: 3rem;
+  }
+  .footer .footer_container .left_side .working_days .social {
+    position: relative;
+  }
+  .footer_container .right_side img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .footer {
+    background-size: cover;
+  }
+  .footer .footer_container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .footer .footer_container .left_side {
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .footer .footer_container .left_side .office ul,
+  .footer .footer_container .left_side .phone_email {
+    gap: 8rem;
+  }
+
+  .footer .footer_container .left_side .working_days {
+    gap: 4rem;
+    margin-top: 3rem;
+  }
+  .footer .footer_container .left_side .working_days .social {
+    position: relative;
+  }
+  .footer_container .right_side img {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .footer .footer_container {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  .footer .footer_container {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .footer .footer_container {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+}
+/* --- responsive break poin end --- */

@@ -52,6 +52,7 @@ const Home = () => {
       {/* --- Footer section start --- */}
       <Footer />
       {/* --- Footer section end --- */}
+
       {/* --- Bottom Footer section start --- */}
       <FooterBottom />
       {/* --- Bottom Footer section end --- */}
