@@ -2,19 +2,15 @@ import "./Product.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import productImg from "../../assets/images/product.png";
-import productOne from "../../assets/images/product_item_one.png";
-import productTwo from "../../assets/images/product_item_two.png";
-import productThree from "../../assets/images/product_item_three.png";
-import productFour from "../../assets/images/product_item_four.png";
-
 import Slider from "react-slick";
+import productItemData from "../../utils/productItem";
 
 const Product = () => {
   const settings = {
     dots: true,
-    infinite: false,
-    // autoplay: true,
-    // speed: 300,
+    infinite: true,
+    autoplay: true,
+    speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
@@ -53,62 +49,15 @@ const Product = () => {
         </div>
         <div className="slider_side">
           <Slider {...settings}>
-            <div className="product_item">
-              <img src={productOne} alt="Fire Suppression" />
-              <p className="title">Fire Suppression</p>
-              <p className="description">
-                Duis aute irure dolor reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
-            <div className="product_item">
-              <img src={productTwo} alt="First Aid" />
-              <p className="title">First Aid</p>
-              <p className="description">
-                Duis aute irure dolor reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
-            <div className="product_item">
-              <img src={productThree} alt="Safety Apparel" />
-              <p className="title">Safety Apparel</p>
-              <p className="description">
-                Duis aute irure dolor reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
-            <div className="product_item">
-              <img src={productFour} alt="Visibility Aids" />
-              <p className="title">Visibility Aids</p>
-              <p className="description">
-                Duis aute irure dolor reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.t!
-              </p>
-            </div>
-            <div className="product_item">
-              <img src={productTwo} alt="First Aid" />
-              <p className="title">First Aid</p>
-              <p className="description">
-                Duis aute irure dolor reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
-            <div className="product_item">
-              <img src={productFour} alt="Visibility Aids" />
-              <p className="title">Visibility Aids</p>
-              <p className="description">
-                Duis aute irure dolor reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.t!
-              </p>
-            </div>
-            <div className="product_item">
-              <img src={productOne} alt="Fire Suppression" />
-              <p className="title">Fire Suppression</p>
-              <p className="description">
-                Duis aute irure dolor reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
-              </p>
-            </div>
+            {productItemData.map((item, index) => {
+              return (
+                <div key={index} className="product_item">
+                  <img src={item.img} alt={item.title} />
+                  <p className="title">{item.title}</p>
+                  <p className="description">{item.description}</p>
+                </div>
+              );
+            })}
           </Slider>
         </div>
       </div>
