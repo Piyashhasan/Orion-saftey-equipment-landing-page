@@ -129,7 +129,7 @@
   }
 }
 
-/* --- responsive break poin start --- */
+/* --- responsive break point start --- */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .navbar .nav_container .logo {
     max-width: 18rem;
@@ -161,4 +161,4 @@
     margin-left: 1rem;
   }
 }
-/* --- responsive break poin end --- */
+/* --- responsive break point end --- */

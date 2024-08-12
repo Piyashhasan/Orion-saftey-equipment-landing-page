@@ -6,7 +6,7 @@
   display: flex;
   width: 100%;
   height: 4rem;
-  background-color: #c20505;
+  background-color: #000;
   position: relative;
   z-index: -99999;
 }
@@ -19,7 +19,7 @@
 .top_nav .set_background .right_side {
   width: 20%;
   height: 4rem;
-  background-color: #c20505;
+  background-color: #000;
 }
 /* --- top nav background set end --- */
 .top_nav .top_nav_wrapper {

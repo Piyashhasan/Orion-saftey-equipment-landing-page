@@ -2,7 +2,7 @@
   background-image: url("../../assets/images/footer_bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto auto;
+  background-size: cover;
   color: #fff;
 }
 .footer .footer_container {
@@ -10,7 +10,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 7rem 0;
+  padding: 5rem 0;
   font-size: 1.5rem;
   line-height: 3rem;
 }
