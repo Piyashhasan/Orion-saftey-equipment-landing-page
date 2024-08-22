@@ -1,8 +1,18 @@
-# React + Vite
+![Orion Safety Equipment](https://piyashhasan-portfolio.netlify.app/images/projects/orion-equipment.jpg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**[Live link](https://orion-safety-equipment.netlify.app/)**
 
-Currently, two official plugins are available:
+## **Project Title**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Orion Safety Equipment. It's a Front-end based project.
+
+## **Technologies Used**
+
+- HTML
+- CSS
+- Responsive Layout
+- JavaScript
+- React Js
+- React Router
+- Slick Slider
+- React Icon
